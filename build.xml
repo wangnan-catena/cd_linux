@@ -31,7 +31,8 @@
       -->
 
       
-      <junit printsummary="yes" haltonfailure="yes">
+      
+          <junit printsummary="yes" haltonfailure="yes">
         <classpath refid="class.path"/>
         <classpath>
           <pathelement path="classes"/>
@@ -39,6 +40,6 @@
         <formatter type="plain" usefile="false"/>
         <test name="site.BootstrapTest"/>
       </junit>
-      
+     
     </target>
 </project>
